@@ -1,0 +1,48 @@
+body {
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: palevioletred;
+    font-size: 30px;
+}
+
+table {
+    border: 2px solid palevioletred;
+    margin: 0 auto;
+    color: white;
+}
+
+th {
+    width: 80px;
+    display: table-cell;
+    font-weight: bold;
+    vertical-align: inherit;
+    background-color: blueviolet;
+}
+
+td {
+    text-align: left;
+    border-top: 1px solid palevioletred;
+}
+
+td.code {
+    background-color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.name {
+    width: 100px;
+}
+
+.description {
+    width: 500px;
+}
